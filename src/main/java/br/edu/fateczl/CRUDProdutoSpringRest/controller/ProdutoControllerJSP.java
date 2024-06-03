@@ -20,7 +20,8 @@ public class ProdutoControllerJSP {
     @Autowired
     RestTemplate restTemplate;
 
-    private final String API_URL = "http://localhost:8080/api/produto";
+ 
+    private final String API_URL = "http://localhost:8080/CRUDProdutoSpringRest/api/produto";
 
     @RequestMapping(name = "produto", value = "/produto", method = RequestMethod.GET)
     public ModelAndView produtoGet(@RequestParam Map<String, String> allRequestParam, ModelMap model) {
