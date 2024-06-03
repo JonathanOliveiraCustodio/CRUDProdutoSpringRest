@@ -107,4 +107,4 @@ RETURN (
     WHERE qtdEstoque < @valor
 );
 
-SELECT * FROM fn_produtosEstoque(16)
+SELECT * FROM fn_produtosEstoque(16) 
